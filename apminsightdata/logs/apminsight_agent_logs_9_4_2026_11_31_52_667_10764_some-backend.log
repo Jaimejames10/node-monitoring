@@ -1,0 +1,199 @@
+[9/4/2026 11:31:52] [INFO] Instrumenting module:: "events"
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::prototype.addListener 
+[9/4/2026 11:31:52] [INFO] Instrumenting module:: "http"
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::createServer 
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::Server 
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::request 
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::get 
+[9/4/2026 11:31:52] [INFO] Instrumenting module:: "https"
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::createServer 
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::Server 
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::request 
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::get 
+[9/4/2026 11:31:52] [INFO] Instrumenting module:: "http2"
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::createSecureServer 
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::Http2ServerRequest.prototype.setTimeout 
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::Http2ServerResponse.prototype.end 
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::Http2ServerResponse.prototype.setTimeout 
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::Http2ServerResponse.prototype.createPushResponse 
+[9/4/2026 11:31:52] [INFO] Instrumenting module:: "net"
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::Server.prototype.getConnections 
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::Server.prototype.close 
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::Socket.prototype.setTimeout 
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::Socket.prototype.write 
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::Socket.prototype.connect 
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::createConnection 
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::Server.prototype.listen 
+[9/4/2026 11:31:52] [INFO] Instrumenting module:: "fs"
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::access 
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::ftruncate 
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::mkdir 
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::mkdtemp 
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::readdir 
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::readFile 
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::readlink 
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::realpath 
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::truncate 
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::appendFile 
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::symlink 
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::copyFile 
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::open 
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::writeFile 
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::chmod 
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::fchmod 
+[9/4/2026 11:31:52] [INFO] lchmod is undefined in module::fs 
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::link 
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::rename 
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::chown 
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::fchown 
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::lchown 
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::futimes 
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::utimes 
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::close 
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::exists 
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::fdatasync 
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::fstat 
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::fsync 
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::lstat 
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::stat 
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::rmdir 
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::unlink 
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::read 
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::write 
+[9/4/2026 11:31:52] [INFO] realpath.native is undefined in module::fs 
+[9/4/2026 11:31:52] [INFO] Instrumenting module:: "dns"
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::lookupService 
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::lookup 
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::resolve 
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::resolve4 
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::resolve6 
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::resolveCname 
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::resolveMx 
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::resolveNaptr 
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::resolveNs 
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::resolvePtr 
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::resolveSoa 
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::resolveSrv 
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::resolveTxt 
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::resolveAny 
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::reverse 
+[9/4/2026 11:31:52] [INFO] Instrumenting module:: "crypto"
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::pbkdf2 
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::randomBytes 
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::randomFill 
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::generateKeyPair 
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::scrypt 
+[9/4/2026 11:31:52] [INFO] Instrumenting module:: "domain"
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::Domain.prototype.bind 
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::Domain.prototype.intercept 
+[9/4/2026 11:31:52] [INFO] Instrumenting module:: "zlib"
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::Deflate.prototype.close 
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::Inflate.prototype.close 
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::Gzip.prototype.close 
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::Gunzip.prototype.close 
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::DeflateRaw.prototype.close 
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::InflateRaw.prototype.close 
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::Unzip.prototype.close 
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::Deflate.prototype.flush 
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::Inflate.prototype.flush 
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::Gzip.prototype.flush 
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::Gunzip.prototype.flush 
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::DeflateRaw.prototype.flush 
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::InflateRaw.prototype.flush 
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::Unzip.prototype.flush 
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::Deflate.prototype.params 
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::deflate 
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::deflateRaw 
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::gunzip 
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::gzip 
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::inflate 
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::inflateRaw 
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::unzip 
+[9/4/2026 11:31:52] [INFO] Instrumenting module:: "child_process"
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::exec 
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::execFile 
+[9/4/2026 11:31:52] [INFO] Instrumenting module:: "cluster"
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::disconnect 
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::Worker.prototype.send 
+[9/4/2026 11:31:52] [INFO] Instrumenting module:: "process"
+[9/4/2026 11:31:52] [INFO] send is undefined in module::process 
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::nextTick 
+[9/4/2026 11:31:52] [INFO] Instrumenting module:: "dgram"
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::Socket.prototype.bind 
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::Socket.prototype.close 
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::Socket.prototype.send 
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::createSocket 
+[9/4/2026 11:31:52] [INFO] Instrumenting module:: "tls"
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::connect 
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::TLSSocket.prototype.renegotiate 
+[9/4/2026 11:31:52] [INFO] Instrumenting module:: "stream"
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::Writable.prototype.write 
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::Writable.prototype.end 
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::finished 
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::pipeline 
+[9/4/2026 11:31:52] [INFO] Instrumenting module:: "global"
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::setImmediate 
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::setTimeout 
+[9/4/2026 11:31:52] [INFO] Instrumenting module:: "inspector"
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::Session.prototype.post 
+[9/4/2026 11:31:52] [INFO] Instrumenting module:: "worker_threads"
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::Worker.prototype.terminate 
+[9/4/2026 11:31:52] [INFO] Instrumenting module:: "readline"
+[9/4/2026 11:31:52] [INFO] Instrumenting function ::Interface.prototype.question 
+[9/4/2026 11:31:52] [INFO] Dependencies : {"apminsight":"^5.3.1","express":"^5.2.1"} 
+[9/4/2026 11:31:52] [INFO]  No time limit restriction for response code ::911 
+[9/4/2026 11:31:52] [INFO] Application not hosted in Kubernetes. 
+[9/4/2026 11:31:53] [ERROR] HTTP request error: socket hang up 
+[9/4/2026 11:31:53] [ERROR] HTTP request error: socket hang up 
+[9/4/2026 11:31:53] [INFO] Application not hosted in AWS. 
+[9/4/2026 11:31:54] [ERROR] HTTP request error: socket hang up 
+[9/4/2026 11:31:54] [INFO] Application not hosted in Azure 
+[9/4/2026 11:31:54] [ERROR] HTTP request error: getaddrinfo ENOTFOUND metadata.google.internal 
+[9/4/2026 11:31:54] [INFO] Application not hosted in GCP 
+[9/4/2026 11:31:54] [ERROR] HTTP request error: socket hang up 
+[9/4/2026 11:31:54] [INFO] Application not hosted in docker. 
+[9/4/2026 11:31:54] [INFO] Application not hosted in AWS_Fargate 
+[9/4/2026 11:31:54] [INFO] intiating /arh/connect request to plusinsight.site24x7.com:443 
+[9/4/2026 11:31:55] [INFO] Response data for /arh/connect {"result":true,"data":{"response-code":911,"instance-info":{"instanceid":"786bd92eaf4ebcd685dc8005540950b0"},"agent_specific_info":{"transaction.grouping":"","transaction.skip.patterns":"","webtransaction.trace.external.components.count.threshold":30,"bgtransaction.trace.threshold":5,"webtransaction.trace.request.headers.record":false,"normalize.dboperation":true,"bgtransaction.tracking.enabled":false,"transaction.grouping.by.position":"","transaction.keyword.skip.grouping":"","tags":"","webtransaction.trace.input.params.record":false,"bgtransaction.trace.enabled":false,"webtransaction.tracker.drop.threshold":10,"apminsight.log.level":"CRITICAL","exceptions.ignore":"","transaction.key.transactions":"","webtransaction.trace.request.headers.ignore":"X-Site24x7-Id, X-SITE24X7-RUM-APPKEY, X-SITE24X7-RUM-TRACEID, Site24x7SyntheticKey","transaction.skip.listening":"*.css, *.js, *.gif, *.jpg, *.jpeg, *.bmp, *.png, *.ico","application.group.name":"","http.errors.ignore":"","http.errors.track":"","transaction.prefix.grouping":""},"s247_cluster_name":999,"custom_config_info":{"transaction.trace.sql.parametrize":true,"down.alert.enabled":false,"suppress.instance.alerts":false,"cloud.instance.cleanup.threshold":7,"transaction.tracestore.size":30,"last.modified.time":1775574413528,"transaction.trace.threshold":2,"show.instance.port.number":true,"metricstore.bgmetric.bucket.size":100,"transaction.trace.enabled":true,"autoupgrade.enabled":false,"transaction.trace.sql.stacktrace.threshold":3,"transaction.tracking.request.interval":1,"metricstore.dbmetric.bucket.size":500,"metricstore.metric.bucket.size":250,"sql.capture.enabled":true,"apdex.threshold":0.5},"collector-info":{"port":"443","host":"plusinsight.site24x7.com"},"app_id":"iZWS6lFSGX","config_info":{"transaction.trace.sql.parametrize":true,"down.alert.enabled":false,"suppress.instance.alerts":false,"transaction.grouping":"","cloud.instance.cleanup.threshold":7,"bgtransaction.trace.threshold":5,"bgtransaction.tracking.enabled":false,"transaction.keyword.skip.grouping":"","bgtransaction.trace.enabled":false,"autoupgrade.enabled":false,"exceptions.ignore":"","transaction.key.transactions":"","transaction.trace.sql.stacktrace.threshold":3,"application.group.name":"","http.errors.track":"","transaction.skip.patterns":"","last.modified.time":1775574413528,"transaction.trace.threshold":2,"webtransaction.trace.external.components.count.threshold":30,"webtransaction.trace.request.headers.record":false,"show.instance.port.number":true,"normalize.dboperation":true,"transaction.grouping.by.position":"","tags":"","transaction.trace.enabled":true,"webtransaction.trace.input.params.record":false,"webtransaction.tracker.drop.threshold":10,"apminsight.log.level":"CRITICAL","transaction.tracking.request.interval":1,"webtransaction.trace.request.headers.ignore":"X-Site24x7-Id, X-SITE24X7-RUM-APPKEY, X-SITE24X7-RUM-TRACEID, Site24x7SyntheticKey","transaction.skip.listening":"*.css, *.js, *.gif, *.jpg, *.jpeg, *.bmp, *.png, *.ico","http.errors.ignore":"","sql.capture.enabled":true,"apdex.threshold":0.5,"transaction.prefix.grouping":""}}}
+[9/4/2026 11:31:55] [CRITICAL] received response code : "MANAGE_AGENT"
+[9/4/2026 11:32:55] [CRITICAL] received empty response data for /arh/nvm request 
+[9/4/2026 11:33:55] [CRITICAL] received empty response data for /arh/nvm request 
+[9/4/2026 11:34:55] [CRITICAL] received empty response data for /arh/nvm request 
+[9/4/2026 11:35:55] [CRITICAL] received empty response data for /arh/nvm request 
+[9/4/2026 11:36:55] [CRITICAL] received empty response data for /arh/nvm request 
+[9/4/2026 11:37:55] [CRITICAL] received empty response data for /arh/nvm request 
+[9/4/2026 11:38:55] [CRITICAL] received empty response data for /arh/nvm request 
+[9/4/2026 11:39:55] [CRITICAL] received empty response data for /arh/nvm request 
+[9/4/2026 11:40:56] [CRITICAL] received empty response data for /arh/nvm request 
+[9/4/2026 11:41:56] [CRITICAL] received empty response data for /arh/nvm request 
+[9/4/2026 11:42:56] [CRITICAL] received empty response data for /arh/nvm request 
+[9/4/2026 11:43:55] [CRITICAL] received empty response data for /arh/nvm request 
+[9/4/2026 11:44:56] [CRITICAL] received empty response data for /arh/nvm request 
+[9/4/2026 11:45:56] [CRITICAL] received empty response data for /arh/nvm request 
+[9/4/2026 11:46:56] [CRITICAL] received empty response data for /arh/nvm request 
+[9/4/2026 11:47:56] [CRITICAL] received empty response data for /arh/nvm request 
+[9/4/2026 11:48:56] [CRITICAL] received empty response data for /arh/nvm request 
+[9/4/2026 11:49:56] [CRITICAL] received empty response data for /arh/nvm request 
+[9/4/2026 11:50:56] [CRITICAL] received empty response data for /arh/nvm request 
+[9/4/2026 11:51:56] [CRITICAL] received empty response data for /arh/nvm request 
+[9/4/2026 11:52:56] [CRITICAL] received empty response data for /arh/nvm request 
+[9/4/2026 11:53:56] [CRITICAL] received empty response data for /arh/nvm request 
+[9/4/2026 11:54:56] [CRITICAL] received empty response data for /arh/nvm request 
+[9/4/2026 11:55:56] [CRITICAL] received empty response data for /arh/nvm request 
+[9/4/2026 11:56:56] [CRITICAL] received empty response data for /arh/nvm request 
+[9/4/2026 11:57:56] [CRITICAL] received empty response data for /arh/nvm request 
+[9/4/2026 11:58:56] [CRITICAL] received empty response data for /arh/nvm request 
+[9/4/2026 11:59:56] [CRITICAL] received empty response data for /arh/nvm request 
+[9/4/2026 12:0:56] [CRITICAL] received empty response data for /arh/nvm request 
+[9/4/2026 12:1:56] [CRITICAL] received empty response data for /arh/nvm request 
+[9/4/2026 12:2:56] [CRITICAL] received empty response data for /arh/nvm request 
+[9/4/2026 12:3:56] [CRITICAL] received empty response data for /arh/nvm request 
+[9/4/2026 12:4:56] [CRITICAL] received empty response data for /arh/nvm request 
+[9/4/2026 12:5:56] [CRITICAL] received empty response data for /arh/nvm request 
+[9/4/2026 12:6:56] [CRITICAL] received empty response data for /arh/nvm request 
+[9/4/2026 12:7:56] [CRITICAL] received empty response data for /arh/nvm request 
+[9/4/2026 12:8:56] [CRITICAL] received empty response data for /arh/nvm request 
+[9/4/2026 12:9:56] [CRITICAL] received empty response data for /arh/nvm request 
+[9/4/2026 12:10:56] [CRITICAL] received empty response data for /arh/nvm request 
+[9/4/2026 12:11:56] [CRITICAL] received empty response data for /arh/nvm request 
+[9/4/2026 12:12:56] [CRITICAL] received empty response data for /arh/nvm request 

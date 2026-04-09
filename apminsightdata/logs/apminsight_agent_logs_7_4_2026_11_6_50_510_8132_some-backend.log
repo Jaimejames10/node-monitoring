@@ -1,0 +1,413 @@
+[7/4/2026 11:6:50] [INFO] Instrumenting module:: "events"
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::prototype.addListener 
+[7/4/2026 11:6:50] [INFO] Instrumenting module:: "http"
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::createServer 
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::Server 
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::request 
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::get 
+[7/4/2026 11:6:50] [INFO] Instrumenting module:: "https"
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::createServer 
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::Server 
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::request 
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::get 
+[7/4/2026 11:6:50] [INFO] Instrumenting module:: "http2"
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::createSecureServer 
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::Http2ServerRequest.prototype.setTimeout 
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::Http2ServerResponse.prototype.end 
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::Http2ServerResponse.prototype.setTimeout 
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::Http2ServerResponse.prototype.createPushResponse 
+[7/4/2026 11:6:50] [INFO] Instrumenting module:: "net"
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::Server.prototype.getConnections 
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::Server.prototype.close 
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::Socket.prototype.setTimeout 
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::Socket.prototype.write 
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::Socket.prototype.connect 
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::createConnection 
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::Server.prototype.listen 
+[7/4/2026 11:6:50] [INFO] Instrumenting module:: "fs"
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::access 
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::ftruncate 
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::mkdir 
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::mkdtemp 
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::readdir 
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::readFile 
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::readlink 
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::realpath 
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::truncate 
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::appendFile 
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::symlink 
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::copyFile 
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::open 
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::writeFile 
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::chmod 
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::fchmod 
+[7/4/2026 11:6:50] [INFO] lchmod is undefined in module::fs 
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::link 
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::rename 
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::chown 
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::fchown 
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::lchown 
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::futimes 
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::utimes 
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::close 
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::exists 
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::fdatasync 
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::fstat 
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::fsync 
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::lstat 
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::stat 
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::rmdir 
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::unlink 
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::read 
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::write 
+[7/4/2026 11:6:50] [INFO] realpath.native is undefined in module::fs 
+[7/4/2026 11:6:50] [INFO] Instrumenting module:: "dns"
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::lookupService 
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::lookup 
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::resolve 
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::resolve4 
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::resolve6 
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::resolveCname 
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::resolveMx 
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::resolveNaptr 
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::resolveNs 
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::resolvePtr 
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::resolveSoa 
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::resolveSrv 
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::resolveTxt 
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::resolveAny 
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::reverse 
+[7/4/2026 11:6:50] [INFO] Instrumenting module:: "crypto"
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::pbkdf2 
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::randomBytes 
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::randomFill 
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::generateKeyPair 
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::scrypt 
+[7/4/2026 11:6:50] [INFO] Instrumenting module:: "domain"
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::Domain.prototype.bind 
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::Domain.prototype.intercept 
+[7/4/2026 11:6:50] [INFO] Instrumenting module:: "zlib"
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::Deflate.prototype.close 
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::Inflate.prototype.close 
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::Gzip.prototype.close 
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::Gunzip.prototype.close 
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::DeflateRaw.prototype.close 
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::InflateRaw.prototype.close 
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::Unzip.prototype.close 
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::Deflate.prototype.flush 
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::Inflate.prototype.flush 
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::Gzip.prototype.flush 
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::Gunzip.prototype.flush 
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::DeflateRaw.prototype.flush 
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::InflateRaw.prototype.flush 
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::Unzip.prototype.flush 
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::Deflate.prototype.params 
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::deflate 
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::deflateRaw 
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::gunzip 
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::gzip 
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::inflate 
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::inflateRaw 
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::unzip 
+[7/4/2026 11:6:50] [INFO] Instrumenting module:: "child_process"
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::exec 
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::execFile 
+[7/4/2026 11:6:50] [INFO] Instrumenting module:: "cluster"
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::disconnect 
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::Worker.prototype.send 
+[7/4/2026 11:6:50] [INFO] Instrumenting module:: "process"
+[7/4/2026 11:6:50] [INFO] send is undefined in module::process 
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::nextTick 
+[7/4/2026 11:6:50] [INFO] Instrumenting module:: "dgram"
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::Socket.prototype.bind 
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::Socket.prototype.close 
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::Socket.prototype.send 
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::createSocket 
+[7/4/2026 11:6:50] [INFO] Instrumenting module:: "tls"
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::connect 
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::TLSSocket.prototype.renegotiate 
+[7/4/2026 11:6:50] [INFO] Instrumenting module:: "stream"
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::Writable.prototype.write 
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::Writable.prototype.end 
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::finished 
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::pipeline 
+[7/4/2026 11:6:50] [INFO] Instrumenting module:: "global"
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::setImmediate 
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::setTimeout 
+[7/4/2026 11:6:50] [INFO] Instrumenting module:: "inspector"
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::Session.prototype.post 
+[7/4/2026 11:6:50] [INFO] Instrumenting module:: "worker_threads"
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::Worker.prototype.terminate 
+[7/4/2026 11:6:50] [INFO] Instrumenting module:: "readline"
+[7/4/2026 11:6:50] [INFO] Instrumenting function ::Interface.prototype.question 
+[7/4/2026 11:6:50] [INFO] Dependencies : {"apminsight":"^5.3.1","express":"^5.2.1"} 
+[7/4/2026 11:6:50] [INFO] Application not hosted in Kubernetes. 
+[7/4/2026 11:6:51] [ERROR] HTTP request error: socket hang up 
+[7/4/2026 11:6:51] [ERROR] HTTP request error: socket hang up 
+[7/4/2026 11:6:51] [INFO] Application not hosted in AWS. 
+[7/4/2026 11:6:52] [ERROR] HTTP request error: socket hang up 
+[7/4/2026 11:6:52] [INFO] Application not hosted in Azure 
+[7/4/2026 11:6:52] [ERROR] HTTP request error: getaddrinfo ENOTFOUND metadata.google.internal 
+[7/4/2026 11:6:52] [INFO] Application not hosted in GCP 
+[7/4/2026 11:6:52] [ERROR] HTTP request error: socket hang up 
+[7/4/2026 11:6:52] [INFO] Application not hosted in docker. 
+[7/4/2026 11:6:52] [INFO] Application not hosted in AWS_Fargate 
+[7/4/2026 11:6:52] [INFO] intiating /arh/connect request to plusinsight.site24x7.com:443 
+[7/4/2026 11:7:11] [INFO] Response data for /arh/connect {"result":true,"data":{"instance-info":{"instanceid":"786bd92eaf4ebcd685dc8005540950b0"},"agent_specific_info":{"transaction.grouping":"","transaction.skip.patterns":"","webtransaction.trace.external.components.count.threshold":30,"bgtransaction.trace.threshold":5,"webtransaction.trace.request.headers.record":false,"normalize.dboperation":true,"bgtransaction.tracking.enabled":false,"transaction.grouping.by.position":"","transaction.keyword.skip.grouping":"","tags":"","webtransaction.trace.input.params.record":false,"bgtransaction.trace.enabled":false,"webtransaction.tracker.drop.threshold":10,"apminsight.log.level":"CRITICAL","exceptions.ignore":"","transaction.key.transactions":"","webtransaction.trace.request.headers.ignore":"X-Site24x7-Id, X-SITE24X7-RUM-APPKEY, X-SITE24X7-RUM-TRACEID, Site24x7SyntheticKey","transaction.skip.listening":"*.css, *.js, *.gif, *.jpg, *.jpeg, *.bmp, *.png, *.ico","application.group.name":"","http.errors.ignore":"","http.errors.track":"","transaction.prefix.grouping":""},"s247_cluster_name":999,"custom_config_info":{"transaction.trace.sql.parametrize":true,"down.alert.enabled":false,"suppress.instance.alerts":false,"cloud.instance.cleanup.threshold":7,"transaction.tracestore.size":30,"last.modified.time":1775574413528,"transaction.trace.threshold":2,"show.instance.port.number":true,"metricstore.bgmetric.bucket.size":100,"transaction.trace.enabled":true,"autoupgrade.enabled":false,"transaction.trace.sql.stacktrace.threshold":3,"transaction.tracking.request.interval":1,"metricstore.dbmetric.bucket.size":500,"metricstore.metric.bucket.size":250,"sql.capture.enabled":true,"apdex.threshold":0.5},"collector-info":{"port":"443","host":"plusinsight.site24x7.com"},"app_id":"iZWS6lFSGX","config_info":{"transaction.trace.sql.parametrize":true,"down.alert.enabled":false,"suppress.instance.alerts":false,"transaction.grouping":"","cloud.instance.cleanup.threshold":7,"bgtransaction.trace.threshold":5,"bgtransaction.tracking.enabled":false,"transaction.keyword.skip.grouping":"","bgtransaction.trace.enabled":false,"autoupgrade.enabled":false,"exceptions.ignore":"","transaction.key.transactions":"","transaction.trace.sql.stacktrace.threshold":3,"application.group.name":"","http.errors.track":"","transaction.skip.patterns":"","last.modified.time":1775574413528,"transaction.trace.threshold":2,"webtransaction.trace.external.components.count.threshold":30,"webtransaction.trace.request.headers.record":false,"show.instance.port.number":true,"normalize.dboperation":true,"transaction.grouping.by.position":"","tags":"","transaction.trace.enabled":true,"webtransaction.trace.input.params.record":false,"webtransaction.tracker.drop.threshold":10,"apminsight.log.level":"CRITICAL","transaction.tracking.request.interval":1,"webtransaction.trace.request.headers.ignore":"X-Site24x7-Id, X-SITE24X7-RUM-APPKEY, X-SITE24X7-RUM-TRACEID, Site24x7SyntheticKey","transaction.skip.listening":"*.css, *.js, *.gif, *.jpg, *.jpeg, *.bmp, *.png, *.ico","http.errors.ignore":"","sql.capture.enabled":true,"apdex.threshold":0.5,"transaction.prefix.grouping":""}}}
+[7/4/2026 11:7:53] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 11:8:53] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 11:9:53] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 11:10:53] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 11:11:53] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 11:12:53] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 11:13:53] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 11:14:54] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 11:15:53] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 11:16:53] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 11:17:53] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 11:18:53] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 11:19:53] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 11:20:53] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 11:21:53] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 11:22:53] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 11:23:53] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 11:24:53] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 11:25:53] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 11:26:53] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 11:27:53] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 11:28:54] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 11:29:54] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 11:30:54] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 11:31:53] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 11:32:53] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 11:33:54] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 11:34:54] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 11:35:54] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 11:36:54] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 11:37:54] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 11:38:54] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 11:39:53] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 11:40:54] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 11:41:54] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 11:42:54] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 11:43:54] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 11:44:54] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 11:45:54] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 11:46:54] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 11:47:54] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 11:48:54] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 11:49:54] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 11:50:54] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 11:51:54] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 11:52:54] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 11:53:54] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 11:54:54] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 11:55:54] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 11:56:54] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 11:57:54] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 11:58:54] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 11:59:54] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 12:0:54] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 12:1:54] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 12:2:54] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 12:3:54] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 12:4:54] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 12:5:54] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 12:6:54] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 12:7:54] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 12:8:54] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 12:9:54] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 12:10:54] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 12:11:54] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 12:12:54] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 12:13:54] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 12:14:54] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 12:15:54] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 12:16:54] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 12:17:54] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 12:18:57] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 12:19:54] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 12:20:54] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 12:21:54] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 12:22:54] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 12:23:54] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 12:24:54] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 12:25:54] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 12:26:54] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 12:27:54] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 12:28:54] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 12:29:54] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 12:30:54] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 12:31:54] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 12:32:54] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 12:33:54] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 12:34:54] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 12:35:54] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 12:36:54] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 12:37:54] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 12:38:54] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 12:39:54] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 12:40:54] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 12:41:56] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 12:42:54] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 12:43:54] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 12:44:54] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 12:45:54] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 12:46:54] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 12:47:54] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 12:48:54] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 12:49:54] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 12:50:54] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 12:51:54] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 12:52:54] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 12:53:54] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 12:54:54] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 12:55:54] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 12:56:54] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 12:57:54] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 12:58:54] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 12:59:54] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 13:0:54] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 13:1:54] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 13:2:54] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 13:3:54] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 13:4:55] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 13:5:54] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 13:6:54] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 13:7:54] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 13:8:54] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 13:9:54] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 13:10:54] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 13:11:54] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 13:12:55] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 13:13:54] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 13:30:7] [ERROR] Error occured for in /arh/data request Error: All endpoints failed
+    at tryEndpoint (C:\Users\PA-CREDITO-02\Downloads\monitoring\nodeapp\node_modules\apminsight\lib\communication\reqhandler.js:13:16)
+    at C:\Users\PA-CREDITO-02\Downloads\monitoring\nodeapp\node_modules\apminsight\lib\communication\reqhandler.js:42:17
+    at ClientRequest.<anonymous> (C:\Users\PA-CREDITO-02\Downloads\monitoring\nodeapp\node_modules\apminsight\lib\communication\reqhandler.js:90:9)
+    at ClientRequest.emit (node:events:508:28)
+    at ClientRequest.emit (node:domain:489:12)
+    at emitErrorEvent (node:_http_client:108:11)
+    at TLSSocket.socketErrorListener (node:_http_client:575:5)
+    at TLSSocket.emit (node:events:508:28)
+    at TLSSocket.emit (node:domain:489:12)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+[7/4/2026 13:30:10] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 13:31:9] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 13:32:9] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 13:33:9] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 13:34:9] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 13:35:9] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 13:36:9] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 13:37:9] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 13:38:9] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 13:39:9] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 13:40:9] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 13:41:9] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 13:42:9] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 13:43:9] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 13:44:9] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 13:45:9] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 13:46:9] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 13:47:9] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 13:48:9] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 13:49:9] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 13:50:9] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 13:51:9] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 13:52:9] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 13:53:10] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 13:54:9] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 13:55:10] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 13:56:10] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 13:57:10] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 13:58:10] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 13:59:10] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 14:0:10] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 14:1:10] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 14:2:10] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 14:3:10] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 14:4:10] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 14:5:10] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 14:6:10] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 14:7:10] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 14:8:10] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 14:9:10] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 14:10:10] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 14:11:10] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 14:12:10] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 14:13:10] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 14:14:10] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 14:15:10] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 14:16:10] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 14:17:10] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 14:18:10] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 14:19:10] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 14:20:10] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 14:21:10] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 14:22:10] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 14:23:10] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 14:24:10] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 14:25:10] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 14:26:10] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 14:27:10] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 14:28:10] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 14:29:10] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 14:30:10] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 14:31:10] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 14:32:10] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 14:33:10] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 14:34:10] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 14:35:10] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 14:36:10] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 14:37:10] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 14:38:12] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 14:39:10] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 14:40:10] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 14:41:10] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 14:42:10] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 14:43:10] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 14:44:10] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 14:45:10] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 14:46:10] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 14:47:10] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 14:48:10] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 14:49:10] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 14:50:10] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 14:51:10] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 14:52:10] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 14:53:10] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 14:54:10] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 14:55:10] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 14:56:27] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 14:57:10] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 14:58:10] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 14:59:10] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 15:0:10] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 15:1:18] [ERROR] Error occured for in /arh/data request Error: All endpoints failed
+    at tryEndpoint (C:\Users\PA-CREDITO-02\Downloads\monitoring\nodeapp\node_modules\apminsight\lib\communication\reqhandler.js:13:16)
+    at C:\Users\PA-CREDITO-02\Downloads\monitoring\nodeapp\node_modules\apminsight\lib\communication\reqhandler.js:42:17
+    at ClientRequest.<anonymous> (C:\Users\PA-CREDITO-02\Downloads\monitoring\nodeapp\node_modules\apminsight\lib\communication\reqhandler.js:90:9)
+    at ClientRequest.emit (node:events:508:28)
+    at ClientRequest.emit (node:domain:489:12)
+    at emitErrorEvent (node:_http_client:108:11)
+    at TLSSocket.socketErrorListener (node:_http_client:575:5)
+    at TLSSocket.emit (node:events:508:28)
+    at TLSSocket.emit (node:domain:489:12)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+[7/4/2026 15:1:21] [ERROR] Error occured for in /arh/nvm request Error: All endpoints failed
+    at tryEndpoint (C:\Users\PA-CREDITO-02\Downloads\monitoring\nodeapp\node_modules\apminsight\lib\communication\reqhandler.js:13:16)
+    at C:\Users\PA-CREDITO-02\Downloads\monitoring\nodeapp\node_modules\apminsight\lib\communication\reqhandler.js:42:17
+    at ClientRequest.<anonymous> (C:\Users\PA-CREDITO-02\Downloads\monitoring\nodeapp\node_modules\apminsight\lib\communication\reqhandler.js:90:9)
+    at ClientRequest.emit (node:events:508:28)
+    at ClientRequest.emit (node:domain:489:12)
+    at emitErrorEvent (node:_http_client:108:11)
+    at TLSSocket.socketErrorListener (node:_http_client:575:5)
+    at TLSSocket.emit (node:events:508:28)
+    at TLSSocket.emit (node:domain:489:12)
+    at emitErrorNT (node:internal/streams/destroy:170:8)
+[7/4/2026 15:2:12] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 15:3:10] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 15:4:10] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 15:5:11] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 15:6:10] [CRITICAL] received empty response data for /arh/nvm request 
+[7/4/2026 15:9:59] [CRITICAL] received empty response data for /arh/nvm request 
