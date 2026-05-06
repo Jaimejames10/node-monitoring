@@ -1,56 +1,94 @@
-import express from 'express';
-import apminsight from 'apminsight';
+import tracer from 'dd-trace';
+tracer.init({
+  service: 'nodeapp-monitoring-demo', // Nombre descriptivo del servicio
+  env: 'test',                       // Entorno (prod, staging, test)
+  version: '1.0.0',                  // Versión de la app
+  hostname: 'localhost',
+  port: 8126,
+  debug: true,
+  runtimeMetrics: true,
+  logInjection: true
+});
 
-apminsight.config();
+import express from 'express';
 
 const app = express();
 const PORT = 3000;
 
-const getOrder = async (orderId) => {
-    // Añadimos un parámetro personalizado para que aparezca en los rastreos de Site24x7
-    apminsight.addCustomParameter('order_id', orderId);
-    
-    return new Promise((resolve) => {
-        setTimeout(() => {
-            resolve({ id: orderId, item: 'Laptop', price: 1200 });
-        }, 500);
+// Middleware para añadir el nombre del recurso basado en la ruta (ayuda al monitoreo por URL)
+app.use((req, res, next) => {
+    const span = tracer.scope().active();
+    if (span) {
+        span.setTag('http.url_path', req.path);
+    }
+    next();
+});
+
+// Endpoint de salud (Health Check) - Ideal para Datadog Synthetics
+app.get('/health', (req, res) => {
+    const healthcheck = {
+        uptime: process.uptime(),
+        message: 'OK',
+        timestamp: Date.now()
+    };
+    try {
+        res.send(healthcheck);
+    } catch (error) {
+        healthcheck.message = error;
+        res.status(503).send();
+    }
+});
+
+// Capturar excepciones no controladas (Caídas del sistema)
+process.on('uncaughtException', (error) => {
+    const span = tracer.scope().active() || tracer.startSpan('uncaught_exception');
+    span.addTags({
+        'error.msg': error.message,
+        'error.stack': error.stack,
+        'error.type': error.name,
+        'system.status': 'critical_crash'
     });
-};
+    span.finish();
+    console.error('CRASH DETECTADO:', error);
+    setTimeout(() => process.exit(1), 1000);
+});
 
 app.get('/', (req, res) => {
-  res.send('¡Hola! El servidor de monitoreo está funcionando.');
+  res.send('¡Hola! El servidor de monitoreo está funcionando. Prueba \n http://localhost:3000/health \n http://localhost:3000/order/123 \n http://localhost:3000/slow o \n http://localhost:3000/error');
 });
 
 app.get('/order/:id', async (req, res) => {
     const id = req.params.id;
+    const span = tracer.scope().active();
+    if (span) {
+        span.setTag('order.id', id);
+        span.setTag('resource.name', `GET /order/${id}`);
+    }
+    
     try {
-        const order = await getOrder(id);
+        // Simulación de búsqueda
+        const order = await new Promise((resolve) => {
+            setTimeout(() => resolve({ id, item: 'Laptop', price: 1200 }), 100);
+        });
         res.json(order);
     } catch (error) {
-        // Reportamos el error explícitamente a Site24x7
-        apminsight.trackError(error);
         res.status(500).send('Error al obtener la orden');
     }
 });
 
 app.get('/slow', (req, res) => {
-    apminsight.addCustomParameter('test_type', 'latency_test');
     setTimeout(() => {
-        res.send('Esta es una respuesta lenta para probar el monitoreo');
+        res.send('Esta es una respuesta lenta para probar latencia en Datadog');
     }, 2000);
 });
 
 app.get('/error', (req, res) => {
-    const customError = new Error('Fallo crítico simulado en ' + new Date().toISOString());
-    apminsight.trackError(customError);
-    // Forzamos un código 500 y un mensaje claro
     res.status(500).json({
         status: 'error',
-        message: 'Esto es un error intencional para Site24x7',
-        timestamp: new Date().toISOString()
+        message: 'Error intencional para ver alertas en Datadog'
     });
 });
 
 app.listen(PORT, () => {
-  console.log(`Servidor rodando na porta ${PORT}`);
+  console.log(`Servidor de pruebas corriendo en http://localhost:${PORT}`);
 });
